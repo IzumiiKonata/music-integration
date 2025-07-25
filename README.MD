@@ -8,6 +8,7 @@ ___
 
 ## Game Version: 1.21.8
 
+### Open the chat screen to move it
 ## Configuration
 
 - SMTC (Use this)
