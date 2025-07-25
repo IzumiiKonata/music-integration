@@ -13,22 +13,23 @@
   },
   "license": "CC0-1.0",
   "icon": "assets/music-integration/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "tech.konata.musicintegration.MusicIntegration"
+    ],
+    "modmenu": [
+      "tech.konata.musicintegration.config.ModMenuImplementation"
     ]
   },
-  "mixins": [
-    "music-integration.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.16.14",
     "minecraft": "~1.21.8",
     "java": ">=21",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "cloth-config": ">=16.0.0"
   },
   "suggests": {
-    "another-mod": "*"
+    "modmenu": "*"
   }
 }
