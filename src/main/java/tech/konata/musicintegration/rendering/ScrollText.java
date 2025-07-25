@@ -40,7 +40,7 @@ public class ScrollText {
 
         int exp = 2;
         this.clip(ctx, x, y - exp, width, fr.lineHeight + exp * 2, () -> {
-            ctx.drawString(fr, text, x, y, color);
+            ctx.drawString(fr, text, (int) (x + scrollOffset), y, color);
 
             int w = fr.width(text);
 
