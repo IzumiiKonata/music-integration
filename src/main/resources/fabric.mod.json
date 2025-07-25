@@ -3,16 +3,13 @@
   "id": "music-integration",
   "version": "${version}",
   "name": "Music Integration",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "Display the music currently being played by your music player software in the client.",
   "authors": [
     "IzumiiKonata"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
   "license": "CC0-1.0",
   "icon": "assets/music-integration/icon.png",
+  "accessWidener": "music-integration.accesswidener",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -24,7 +21,7 @@
   },
   "depends": {
     "fabricloader": ">=0.16.14",
-    "minecraft": "~1.21.8",
+    "minecraft": ">=1.21.8",
     "java": ">=21",
     "fabric-api": "*",
     "cloth-config": ">=16.0.0"
