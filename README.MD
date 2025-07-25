@@ -8,6 +8,14 @@ ___
 
 ## Game Version: 1.21.8
 
-## Dependencies
+## Configuration
 
+- SMTC (Use this)
+- NCM (A Chinese music player, if you don't have it don't select this)
+
+## Dependencies
 - cloth-config
+
+## Screenshots
+
+![img.png](img.png)
